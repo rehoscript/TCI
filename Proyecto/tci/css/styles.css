@@ -265,7 +265,7 @@ img {
 /* --------------------------------------------------------	*/
 
 header{
-  background:url(../img/rotator2-1.jpg) center top;
+/*  background:url(../img/rotator2-1.jpg) center top;*/
 }
 
 .logo{
@@ -308,7 +308,7 @@ header{
 	font-family:'Open Sans', serif;
   font-size:14px;
   line-height:42px;
-	color:#fff;
+	color:black;
   padding:0px 20px;
   margin:0px;
   margin-right:4px;
@@ -325,8 +325,11 @@ header{
 }
 
 .navbar .nav > li.selected > a  {
-	color:#fff;
-  background:#333946; 
+/*	color:#fff;
+  background:#333946; */
+    color:rgb(247,162,55);
+    background: black;
+        
   border:1px solid #333946;
 }
 
