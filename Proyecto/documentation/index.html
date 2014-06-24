@@ -1,0 +1,1149 @@
+<!doctype html>  
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Deita Theme - Responsive Agency Multi Page HTML5 + CSS3 Template</title>
+	
+	<meta name="description" content="Thank you for purchasing Deita template.">
+	<meta name="author" content="entiri s.r.o.">
+	<meta name="copyright" content="entiri s.r.o.">
+	<meta name="generator" content="pspad">
+	<meta name="date" content="2014-05-01">
+	
+	<link rel="stylesheet" href="styles.css" media="all">
+  <link href="img/favicon.png" rel="icon" type="image/png"> 
+
+  <script type="text/javascript">
+    function externalLinks() {
+     if (!document.getElementsByTagName) return;
+     var anchors = document.getElementsByTagName("a");
+     for (var i=0; i<anchors.length; i++) {
+       var anchor = anchors[i];
+       if (anchor.getAttribute("href") &&
+           anchor.getAttribute("rel") == "external")
+         anchor.target = "_blank";
+     }
+    }
+    window.onload = externalLinks;  
+  </script>
+</head>
+<body>
+<div id="container">
+    
+  <h1><a name="top"></a>Deita Theme</h1>
+  
+  <h2>Responsive Agency Multi Page HTML5 + CSS3 Template</h2>
+
+  <div id="logo"><img src="img/logo.png" alt="Deita-logo"></div>
+
+  <hr>
+  
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#html-files-and-structure">HTML Files and Structure</a>
+      <ul>
+        <li><a href="#about">About Deita Template</a></li>
+        <li><a href="#basic-structure">Basic Structure</a></li>
+        <li><a href="#columns">Columns</a></li>
+        <li><a href="#container-element">Container</a></li>
+        <li><a href="#grid-system">Grid System</a></li>
+        <li><a href="#header">Header</a></li>
+        <li><a href="#navigation">Navigation</a></li>   
+        <li><a href="#service">Service</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#portfolio-item">Portfolio Item</a></li>
+        <li><a href="#elements">Elements</a></li>  
+      </ul>
+    </li>
+    <li><a href="#css-files">CSS Files and Structure</a></li>
+    <li><a href="#javascript-plugins-and-scripts">JavaScript Plugins and Scripts</a></li>
+    <li><a href="#sources-and-credits">Sources and Credits</a></li>
+    <li><a href="#changelog">Changelog</a></li>
+  </ul>
+  <hr>
+  <div class="empty-space"></div>
+
+<!-- Introduction --> 
+<h2><a name="introduction">Introduction</a></h2>
+<hr>
+Created: 01/05/2014<br>
+Latest Update: 01/05/2014<br>
+By: entiri s.r.o. <br>
+E-mail: <a href="mailto:support@entiri.com" rel="external">support@entiri.com</a><br>
+<br>
+Thank you for purchasing Deita template.
+<hr>
+<a href="#top"><div class="back-to-top"><span>Back to Top</span></div></a>
+
+<!-- HTML Files and Structure --> 
+<h2><a name="html-files-and-structure">HTML Files and Structure</a></h2>
+<h3><a name="about">About Deita Template</a></h3>
+<p>
+<strong>Deita Theme</strong> is responsive multi page HTML5 template suitable for agency or business. Deita is retina ready with 16 color styles, awesome LayerSlider, Parallax ready and much more. It is a great way to present your agency at the highest level. It is based on popular Twitter Bootstrap framework. This template uses the latest HTML5 and CSS3 technologies.
+</p>  
+
+<p>
+<strong>Important Notices!</strong>
+<br>
+To change color style just open "index.html" and in html head change "css/styles.css" to some of these:
+<br><br>
+css/styles-red2.css<br>
+css/styles-orange.css<br>
+css/styles-orange2.css<br>
+css/styles-yellow.css<br>
+css/styles-brown.css<br>
+css/styles-violet.css<br>
+css/styles-purple.css<br>
+css/styles-green.css<br>
+css/styles-green2.css<br>
+css/styles-green3.css<br>
+css/styles-green4.css<br>
+css/styles-blue.css<br>
+css/styles-blue2.css<br>
+css/styles-blue3.css<br>
+css/styles-blue4.css
+</p> 
+
+<h3><a name="basic-structure">Basic Structure</a></h3>
+
+<p>  
+All the pages have been divided into vertical sections as show on this simplified HTML code:
+</p>
+
+<!-- Structure - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Header --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;header</span> <span style="color: #658b00">id=</span><span style="color: #CD5555">&quot;home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span> 
+  { HEADER CONTENT }
+<span style="color: #8B008B; font-weight: bold">&lt;/header&gt;</span>
+<span style="color: #228B22">&lt;!-- Header End --&gt;</span>
+
+<span style="color: #228B22">&lt;!-- Social Row --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;container&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>  
+  { SOCIAL ROW CONTENT }
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+<span style="color: #228B22">&lt;!-- Social Row End --&gt;</span>
+
+{ SITE CONTENT }
+
+<span style="color: #228B22">&lt;!-- Map --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;map-container&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  { MAP CONTENT }
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span> 
+<span style="color: #228B22">&lt;!-- Map End --&gt;</span>
+
+<span style="color: #228B22">&lt;!-- Social Footer --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;social-container&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  { SOCIAL FOOTER CONTENT }
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #228B22">&lt;!-- Social Footer End --&gt;</span>
+
+<span style="color: #228B22">&lt;!-- Footer --&gt;</span>  
+<span style="color: #8B008B; font-weight: bold">&lt;footer</span> <span style="color: #658b00">id=</span><span style="color: #CD5555">&quot;contact&quot;</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;footer&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  { FOOTER CONTENT }
+<span style="color: #8B008B; font-weight: bold">&lt;/footer&gt;</span>     
+<span style="color: #228B22">&lt;!-- Footer End --&gt;</span>   
+</pre></td></tr></table></div>
+<!-- Structure - Code - End -->
+
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+<h3><a name="columns">Columns</a></h3>
+
+<p>
+Template is divided into rows and columns, with respective classes .row and .span*, where rows divide horizontal parts of the page and columns divide each row into smaller vertical sections. Since this template is based on 12-column grid system, you can divide each row into various number of vertical sections as long as they sum up at twelve (12). Look at the examples below for better explanation and some real examples.
+</p>
+
+
+<p>
+<strong>Full-width:</strong> To achieve a full-width column, use the code below:
+</p>
+
+<!-- Full-width - Code -->
+1
+2
+3
+4
+5
+<div class="row">
+  <div class="span12">
+    { CONTENT }
+  </div>
+</div>
+<!-- Full-width - Code - End -->
+<br>
+
+<p>
+<strong>3 equal columns</strong> (1/3 + 1/3 + 1/3 layout):
+</p>
+
+<!-- 3 equal columns - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;row&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-4&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 1 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-4&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 2 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-4&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 3 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+</pre></td></tr></table></div>
+<!-- 3 equal columns - Code - End -->
+<br>
+
+<p>
+<strong>4 equal columns</strong> (1/4 + 1/4 + 1/4 + 1/4 layout):
+</p>
+
+<!-- 4 equal columns - Code --><!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;row&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-3&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 1 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-3&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 2 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-3&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 3 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-3&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 4 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+</pre></td></tr></table></div>
+
+<!-- 4 equal columns - Code - End -->
+<br>
+
+<p>
+<strong>2 columns with different width</strong> (3/4 + 1/4 layout)
+</p>
+
+<!-- 2 columns with different width - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6
+7
+8</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;row&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-9&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 1 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-3&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    { CONTENT 2 }
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+</pre></td></tr></table></div>
+
+<!-- 2 columns with different width - End -->
+
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+<h3><a name="container-element">Container</a></h3>
+
+<p>
+There's one more special class which is being used across all HTML files, which is .container-fluid. This class determines the maximum width of a page and also makes sure that page is center-aligned. It also determines rendering of a template on mobile devices and tablets. This class can have also different backgrounds.
+</p>
+
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+<h3><a name="grid-system">Grid System</a></h3>
+
+<p>
+For more information about layout and grid system, you can reffer to exhaustive documentation on all elements at <a href="http://getbootstrap.com/css/#grid" rel="external">http://getbootstrap.com/css/#grid</a>
+</p>
+
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+  <h3><a name="header">Header</a></h3>
+
+<p>
+Example of Header Structure:
+</p>
+
+<!-- Header - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #8B008B; font-weight: bold">&lt;header</span> <span style="color: #658b00">id=</span><span style="color: #CD5555">&quot;home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span> 
+
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;space20&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/div&gt;</span> 
+
+  <span style="color: #228B22">&lt;!-- Nav --&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;nav</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;navbar&quot;</span> <span style="color: #658b00">role=</span><span style="color: #CD5555">&quot;navigation&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;navbar-inner&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;container&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>   
+      
+        <span style="color: #228B22">&lt;!-- Logo --&gt;</span>                       
+        <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;index.html&quot;</span><span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;back-to-top&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+          <span style="color: #8B008B; font-weight: bold">&lt;img</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;img/logo.png&quot;</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;logo&quot;</span> <span style="color: #658b00">alt=</span><span style="color: #CD5555">&quot;&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+        <span style="color: #8B008B; font-weight: bold">&lt;/a&gt;</span>                     
+      
+        <span style="color: #228B22">&lt;!-- Menu --&gt;</span>
+        <span style="color: #8B008B; font-weight: bold">&lt;ul</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;nav&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+          <span style="color: #8B008B; font-weight: bold">&lt;li</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;active&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;index.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Home<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+          <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;services.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Services&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Services<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span> 
+          <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;about.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;About&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>About<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>   
+          <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;portfolio.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Portfolio&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Portfolio<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+          <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;project.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Project&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Project<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+          <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;components.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Components&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Components<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+          <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;contact.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Contact&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Contact<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span> 
+        <span style="color: #8B008B; font-weight: bold">&lt;/ul&gt;</span>
+        <span style="color: #8B008B; font-weight: bold">&lt;select</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;select-menu&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/select&gt;</span> <span style="color: #228B22">&lt;!-- select menu for small screens --&gt;</span> 
+        <span style="color: #228B22">&lt;!-- Menu End --&gt;</span>       
+
+      <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span> 
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+  <span style="color: #8B008B; font-weight: bold">&lt;/nav&gt;</span>
+  <span style="color: #228B22">&lt;!-- Nav End --&gt;</span>
+
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;space20&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/div&gt;</span> 
+
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;container&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;row&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-12&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>     
+
+        { LAYERSLIDER }
+       
+      <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>    
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>   
+
+<span style="color: #8B008B; font-weight: bold">&lt;/header&gt;</span>
+<span style="color: #228B22">&lt;!-- Header End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Header Code - End -->
+
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+  <h3><a name="navigation">Navigation</a></h3>
+
+<p>
+Example of Navigation:
+</p>
+
+<!--  Navigation - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Menu --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;ul</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;nav&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;active&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;index.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Home<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;services.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Services&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Services<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span> 
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;about.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;About&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>About<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>   
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;portfolio.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Portfolio&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Portfolio<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;project.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Project&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Project<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;components.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Components&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Components<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;contact.html&quot;</span> <span style="color: #658b00">title=</span><span style="color: #CD5555">&quot;Contact&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Contact<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span> 
+<span style="color: #8B008B; font-weight: bold">&lt;/ul&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;select</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;select-menu&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/select&gt;</span> <span style="color: #228B22">&lt;!-- select menu for small screens --&gt;</span> 
+<span style="color: #228B22">&lt;!-- Menu End --&gt;</span>  
+</pre></td></tr></table></div>
+<!-- Navigation - Code - End -->
+
+<p>
+<strong>How to make Navigation Item selected?</strong><br>
+To make Navigation Item active (selected), add .active class to it's <strong>&lt;li&gt;</strong> parent container. 
+</p>
+
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+  
+  <h3><a name="service">Service</a></h3>
+
+<p>
+Example of Service:
+</p>
+
+<!-- Service - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Service --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;service&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span> 
+  <span style="color: #8B008B; font-weight: bold">&lt;img</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;img/services/01.jpg&quot;</span> <span style="color: #658b00">alt=</span><span style="color: #CD5555">&quot;&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;service-content&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;h4&gt;</span>Development<span style="color: #8B008B; font-weight: bold">&lt;/h4&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;p&gt;</span>
+      Int curletus eger portfelis rutrum uto mollgandre.
+    <span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;btn&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Show More<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-eye&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;space40-mobile&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/div&gt;</span>  
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #228B22">&lt;!-- Service End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Service - Code - End -->
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+      
+
+  <h3><a name="about-us">About Us</a></h3>
+
+<p>
+Example of About Us:
+</p>
+
+<!-- About Us - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- About Us --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;row about&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-6 text-content&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;h4&gt;</span>About Deita Team<span style="color: #8B008B; font-weight: bold">&lt;/h4&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;p&gt;</span>
+     Juis voluptatem sequi nesciunt. Neque porro qum hererit nibh, quis faun.
+    <span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;social-2&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #228B22">&lt;!-- Social Icons --&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-facebook&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-twitter&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-tumblr&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-linux&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+      <span style="color: #228B22">&lt;!-- Social Icons End --&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;space40-mobile&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/div&gt;</span>  
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;col-md-6&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;img</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;img/about/01.jpg&quot;</span> <span style="color: #658b00">alt=</span><span style="color: #CD5555">&quot;&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span> 
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+<span style="color: #228B22">&lt;!-- About Us End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- About Us - Code - End -->
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+  <h3><a name="portfolio-item">Portfolio Item</a></h3>
+
+<p>
+Example of Portfolio Item:
+</p>
+
+<!-- Portfolio Item - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Portfolio Item --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;img/portfolio/01.jpg&quot;</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;item&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #228B22">&lt;!-- Image --&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;img</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;img/portfolio/01.jpg&quot;</span> <span style="color: #658b00">alt=</span><span style="color: #CD5555">&quot;&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;item-overlay&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;h4&gt;</span>Web Design Trends<span style="color: #8B008B; font-weight: bold">&lt;/h4&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;div&gt;</span>Tempor incididunt uter labore eta dolor magfetrum ut molm herta issi.<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;</span> 
+<span style="color: #228B22">&lt;!-- Portfolio Item End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Portfolio Item - Code - End -->
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+  <h3><a name="elements">Elements</a></h3>
+
+<p>
+Video:
+</p>
+
+<!-- Video - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Video --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;iframe</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;video-content&quot;</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;//www.youtube.com/embed/3gMcelIyC00&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/iframe&gt;</span>
+</pre></td></tr></table></div>
+
+<!-- Video - Code - End -->
+
+<p>
+Social Icons:
+</p>
+
+<!-- Social Icons - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Social Icons --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;social&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-adn small a-pulse&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-android a-pulse&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-bitbucket small a-pulse&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-apple a-pulse&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-google-plus small a-pulse&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-dribbble a-pulse&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-css3 small a-pulse&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #228B22">&lt;!-- Social Icons End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Social Icons - Code - End -->
+
+<p>
+Entypo Icons:
+</p>
+
+<!-- Entypo Icons - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Entypo Icons --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo phone&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo mic&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo book&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo mobile&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo eye&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo camera&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;entypo clock&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+  ...
+  ...
+<span style="color: #228B22">&lt;!-- Entypo Icons End--&gt;</span>  
+</pre></td></tr></table></div>
+<!-- Entypo Icons - Code - End -->
+
+<p>
+Font Awesome Icons:
+</p>
+
+<!-- Font Awesome Icons - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Font Awesome Icons --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-fire&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-pencil&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-book&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-trophy&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-camera&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-umbrella&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>
+  ...
+  ...
+<span style="color: #228B22">&lt;!-- Font Awesome Icons End--&gt;</span>  
+</pre></td></tr></table></div>
+<!-- Font Awesome Icons - Code - End -->
+
+<p>
+Lists:
+</p>
+
+<!--  Lists - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- List --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;ul</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;list-a&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-check&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>State clasraises on table rows.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-home&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved disabled states on navs.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-pencil&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>The navbar component is now by default.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-bug&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved prepended and appended inputs.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-dribbble&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>New base font-size and line-height.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>              
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-android&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Dentum velitue gravivs on table rows.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-css3&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved disabled states on navs.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-ambulance&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved prepended and appended inputs.<span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/ul&gt;</span>  
+<span style="color: #228B22">&lt;!-- List End --&gt;</span>
+
+<span style="color: #228B22">&lt;!-- List with Links --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;ul</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;list-a&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-dropbox&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>State clasraises on table rows.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-apple&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved disabled states on navs.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-chevron-right&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>The navbar component is now by default.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-fire&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved prepended and appended inputs.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-btc&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>New base font-size and line-height.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>              
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-expand&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Dentum velitue gravivs on table rows.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-medkit&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved disabled states on navs.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;li&gt;&lt;a</span> <span style="color: #658b00">href=</span><span style="color: #CD5555">&quot;#&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-github&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Improved prepended and appended inputs.<span style="color: #8B008B; font-weight: bold">&lt;/a&gt;&lt;/li&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/ul&gt;</span>  
+<span style="color: #228B22">&lt;!-- List with Links End --&gt;</span>
+</pre></td></tr></table></div>
+<!--  Lists - Code - End -->
+
+<p>
+Button:
+</p>
+
+<!--  Button - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%">1
+2
+3
+4
+5
+6
+7</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Buttons --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;btn-large-icon&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-compass&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Services<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;btn-large&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Read More<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;btn&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;i</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;fa fa-pencil&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;&lt;/i&gt;</span>Send<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span> 
+<span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;btn&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Send<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span> 
+<span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;btn-small&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Show<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+<span style="color: #228B22">&lt;!-- Buttons End --&gt;</span>
+</pre></td></tr></table></div>
+<!--  Button - Code - End -->
+
+<p>
+Flex Slider:
+</p>
+
+<!-- Flex Slider - Code -->
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Flex Slider --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;flex-1&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;ul</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;slides&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;li&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;img</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;img/portfolio/01.jpg&quot;</span> <span style="color: #658b00">alt=</span><span style="color: #CD5555">&quot;&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;li&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;img</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;img/portfolio/02.jpg&quot;</span> <span style="color: #658b00">alt=</span><span style="color: #CD5555">&quot;&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;li&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;img</span> <span style="color: #658b00">src=</span><span style="color: #CD5555">&quot;img/portfolio/03.jpg&quot;</span> <span style="color: #658b00">alt=</span><span style="color: #CD5555">&quot;&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>                   
+  <span style="color: #8B008B; font-weight: bold">&lt;/ul&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #228B22">&lt;!-- Flex Slider End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Flex Slider - Code - End -->
+         
+<p>
+Client Says:
+</p>
+<!-- Client Says - Code -->   
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Flex-2 --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;flex-2&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;ul</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;slides&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;li&gt;</span>        
+      <span style="color: #8B008B; font-weight: bold">&lt;p&gt;</span>Ostru dexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exmcorper susc nostrudexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exerci tauscipit lobomcorper susc nostrudexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exerci tauscipit lobo aliquip ex ea coiipit lobmmodo cortis nisl ut aliquip ex ea coi.<span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;p</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;client&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Mario Balio<span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span> 
+    <span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;li&gt;</span>        
+      <span style="color: #8B008B; font-weight: bold">&lt;p&gt;</span>Rodnejru dexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exmcorper susc nostrudexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exerci tauscipit lobomcorper susc nostrudexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exerci tauscipit lobo aliquip ex ea coiipit lobmmodo cortis nisl ut aliquip ex ea coi.<span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;p</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;client&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Dylen Gargamel<span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span> 
+    <span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;li&gt;</span>        
+      <span style="color: #8B008B; font-weight: bold">&lt;p&gt;</span>Terafloper amcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exmcorper susc nostrudexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exerci tauscipit lobomcorper susc nostrudexerci tation ullamcol ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendinim veniud exerci tauscipit lobo aliquip ex ea coiipit lobmmodo cortis nisl ut aliquip ex ea coi.<span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;p</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;client&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Rosamunde Tehaal<span style="color: #8B008B; font-weight: bold">&lt;/p&gt;</span> 
+    <span style="color: #8B008B; font-weight: bold">&lt;/li&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/ul&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+<span style="color: #228B22">&lt;!-- Flex-2 End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Client Says - Code - End -->
+                  
+<p>
+Progress Bar:
+</p>
+<!-- Progress Bar - Code -->   
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Progress Bar Icons --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar-shortcode&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>          
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar&quot;</span> <span style="color: #658b00">role=</span><span style="color: #CD5555">&quot;progressbar&quot;</span> <span style="color: #658b00">data-percentage=</span><span style="color: #CD5555">&quot;80&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;span</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar-span&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Webdesign 82%<span style="color: #8B008B; font-weight: bold">&lt;/span&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>         
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar&quot;</span> <span style="color: #658b00">role=</span><span style="color: #CD5555">&quot;progressbar&quot;</span> <span style="color: #658b00">data-percentage=</span><span style="color: #CD5555">&quot;60&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;span</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar-span&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Print 70%<span style="color: #8B008B; font-weight: bold">&lt;/span&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>          
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar&quot;</span> <span style="color: #658b00">role=</span><span style="color: #CD5555">&quot;progressbar&quot;</span> <span style="color: #658b00">data-percentage=</span><span style="color: #CD5555">&quot;90&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;span</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar-span&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>WooCommerce 90%<span style="color: #8B008B; font-weight: bold">&lt;/span&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>          
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar&quot;</span> <span style="color: #658b00">role=</span><span style="color: #CD5555">&quot;progressbar&quot;</span> <span style="color: #658b00">data-percentage=</span><span style="color: #CD5555">&quot;100&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;span</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar-span&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>WordPress 100%<span style="color: #8B008B; font-weight: bold">&lt;/span&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+
+  <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>          
+    <span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar&quot;</span> <span style="color: #658b00">role=</span><span style="color: #CD5555">&quot;progressbar&quot;</span> <span style="color: #658b00">data-percentage=</span><span style="color: #CD5555">&quot;85&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+      <span style="color: #8B008B; font-weight: bold">&lt;span</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;progress-bar-span&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>Drupal 85%<span style="color: #8B008B; font-weight: bold">&lt;/span&gt;</span>
+    <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>  
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #228B22">&lt;!-- Progress Bar End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Progress Bar - Code - End -->
+          
+<p>
+Alerts:
+</p>
+<!-- Alerts - Code -->   
+<!-- HTML generated using hilite.me --><div style="background: #eeeedd; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><table><tr><td><pre style="margin: 0; line-height: 125%"> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21</pre></td><td><pre style="margin: 0; line-height: 125%"><span style="color: #228B22">&lt;!-- Alerts Icons --&gt;</span>
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;alert alert-error&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">type=</span><span style="color: #CD5555">&quot;button&quot;</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;close&quot;</span> <span style="color: #658b00">data-dismiss=</span><span style="color: #CD5555">&quot;alert&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>&amp;times;<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;strong&gt;</span>Error!<span style="color: #8B008B; font-weight: bold">&lt;/strong&gt;</span> Change a few things up and try submitting again.
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;alert alert-success&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">type=</span><span style="color: #CD5555">&quot;button&quot;</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;close&quot;</span> <span style="color: #658b00">data-dismiss=</span><span style="color: #CD5555">&quot;alert&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>&amp;times;<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;strong&gt;</span>Well done!<span style="color: #8B008B; font-weight: bold">&lt;/strong&gt;</span> You successfully read this important alert message.
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;alert alert-info&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">type=</span><span style="color: #CD5555">&quot;button&quot;</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;close&quot;</span> <span style="color: #658b00">data-dismiss=</span><span style="color: #CD5555">&quot;alert&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>&amp;times;<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;strong&gt;</span>Heads up!<span style="color: #8B008B; font-weight: bold">&lt;/strong&gt;</span> This alert needs your attention.
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+
+<span style="color: #8B008B; font-weight: bold">&lt;div</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;alert&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;button</span> <span style="color: #658b00">type=</span><span style="color: #CD5555">&quot;button&quot;</span> <span style="color: #658b00">class=</span><span style="color: #CD5555">&quot;close&quot;</span> <span style="color: #658b00">data-dismiss=</span><span style="color: #CD5555">&quot;alert&quot;</span><span style="color: #8B008B; font-weight: bold">&gt;</span>&amp;times;<span style="color: #8B008B; font-weight: bold">&lt;/button&gt;</span>
+  <span style="color: #8B008B; font-weight: bold">&lt;strong&gt;</span>Warning!<span style="color: #8B008B; font-weight: bold">&lt;/strong&gt;</span> Best check yo self, you&#39;re not looking too good.
+<span style="color: #8B008B; font-weight: bold">&lt;/div&gt;</span>
+<span style="color: #228B22">&lt;!-- Alerts End --&gt;</span>
+</pre></td></tr></table></div>
+<!-- Alerts - Code - End -->
+
+
+
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+
+<hr> 
+  
+<h2><a name="css-files">CSS Files and Structure</a></h2>
+<hr>
+<p>
+<strong>This template comes with these CSS files:</strong>
+<br><br>
+css/bootstrap.min.css<br>
+css/flexslider.css<br>
+css/animate.css<br>
+css/magnific-popup.css<br>
+css/font-awesome.min.css<br>
+css/entypo.css<br>
+css/styles.css<br>
+
+</p>
+About each file:
+<p>
+<strong>css/bootstrap.min.css</strong>  <br>
+Twitter bootstrap framework. A base twitter bootstrap CSS files, which defines various elements like  columns, navigation, tabs, icons, forms and buttons.  
+<br><br>
+<strong>css/flexslider.css</strong><br>
+Flex Slider stylesheet file.
+<br><br>
+<strong>css/animate.css - http://daneden.me/animate/</strong><br>
+CSS3 animation stylesheet file.
+<br><br>
+<strong>css/magnific-popup.css</strong><br>
+Magnific Popup stylesheet file.
+<br><br>
+<strong>css/font-awesome.min.css</strong><br>
+Font Awesome stylesheet file.
+<br><br>
+<strong>css/entypo.css</strong><br>
+Entypo Iconic Font stylesheet file.
+<br><br>
+<strong>css/styles.css</strong><br>
+Main Theme stylesheet file.
+<br><br>
+
+<p>
+<strong>Color variations - CSS files:</strong>
+<br><br>
+css/styles-red2.css<br>
+css/styles-orange.css<br>
+css/styles-orange2.css<br>
+css/styles-yellow.css<br>
+css/styles-brown.css<br>
+css/styles-violet.css<br>
+css/styles-purple.css<br>
+css/styles-green.css<br>
+css/styles-green2.css<br>
+css/styles-green3.css<br>
+css/styles-green4.css<br>
+css/styles-blue.css<br>
+css/styles-blue2.css<br>
+css/styles-blue3.css<br>
+css/styles-blue4.css
+</p>
+         
+<hr>
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+  
+<h2><a name="javascript-plugins-and-scripts">JavaScript Plugins and Scripts</a></h2>
+<hr>
+<p>
+This template comes with these Javascript files:
+</p>
+<strong>jquery.js</strong>
+<br>jQuery is a Javascript library that greatly reduces the amount of code that you must write.
+<br><br>
+<strong>bootstrap.min.js</strong>
+<br>Twitter bootstrap base JavaScript file, which allows us to use many javascript components like tabs, accordion menus, dropdowns, tooltips and popovers, alert messages and so on. More information and examples can be found at http://twitter.github.com/bootstrap/javascript.html
+<br><br>
+<strong>animate.js</strong>
+<br>For animate css
+<br><br>
+<strong>jquery.flexslider-min.js</strong>
+<br>FlexSlider 2 JavaScript file.
+<br><br>
+<strong>jquery.isotope.min.js</strong>
+<br>A dynamic layout plugin for jQuery. The flip-side of CSS floats.
+<br><br>
+<strong>jquery.fitvids.js</strong>
+<br>A lightweight, easy-to-use jQuery plugin for fluid width video embeds. 
+<br><br>
+<strong>jquery.easing.js</strong>
+<br>Uses the built in easing capabilities added In jQuery 1.1 to offer multiple easing options 
+<br><br>
+<strong>jquery.parallax-1.1.3.js</strong>
+<br>Parallax 
+<br><br>
+<strong>jquery.magnific-popup.min.js</strong>
+<br>Magnific Popup
+<br><br>
+<strong>js/jquery.sticky.js</strong>
+<br>Fixed menu on the top of the site.
+<br><br>
+<strong>js/tinynav.min.js</strong>
+<br>Responsive navigation plugin.
+<br><br>
+<strong>jquery.scrollTo.js</strong>
+<br>Smooth scrolling of the site.
+<br><br>
+<strong>retina.js</strong>
+<br>For Retina Images 
+<br><br>
+<strong>functions.js</strong>
+<br>The most important file of Deita template, which defines some basic javascript functions. More information inside JS file. 
+<br><br>
+
+<hr>
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+<h2><a name="sources-and-credits">Sources and Credits</a></h2>
+<hr>
+<p>
+<strong>Fonts, Icons, Photos and Source Files</strong>
+<br><br>
+We've used the following files.
+<br><br>
+<h4>Included libraries</h4>
+<strong>jQuery</strong> - <a href="http://jquery.com" rel="external">http://jquery.com</a><br>
+<strong>Twitter Bootstrap</strong> - <a href="http://getbootstrap.com/" rel="external">http://getbootstrap.com/</a><br>
+<strong>jQuery Isotope</strong> - <a href="http://isotope.metafizzy.co" rel="external">http://isotope.metafizzy.co</a><br>
+<strong>jQuery FlexSlider 2</strong> - <a href="http://flexslider.woothemes.com" rel="external">http://flexslider.woothemes.com</a><br>
+<strong>jQuery Fitvids</strong> - <a href="http://fitvidsjs.com" rel="external">http://fitvidsjs.com</a><br>
+<strong>jQuery Parallax</strong> - <a href="http://www.ianlunn.co.uk/plugins/jquery-parallax" rel="external">http://www.ianlunn.co.uk/plugins/jquery-parallax</a><br>
+<strong>jQuery Easing</strong> - <a href="http://gsgd.co.uk/sandbox/jquery/easing" rel="external">http://gsgd.co.uk/sandbox/jquery/easing</a><br>
+<strong>jQuery.ScrollTo</strong> - <a href="http://flesler.blogspot.com" rel="external">http://flesler.blogspot.com</a><br>
+<strong>Magnific Popup</strong> - <a href="http://dimsemenov.com/plugins/magnific-popup" rel="external">http://dimsemenov.com/plugins/magnific-popup</a><br>  
+<strong>Retina</strong> - <a href="http://retinajs.com" rel="external">http://retinajs.com</a><br>
+<strong>Animate js/css</strong> - <a href="http://daneden.me/animate" rel="external">http://daneden.me/animate</a><br>
+<strong>Sticky</strong> - <a href="http://stickyjs.com" rel="external">http://stickyjs.com</a><br>
+<strong>TinyNav</strong> - <a href="http://tinynav.viljamis.com" rel="external">http://tinynav.viljamis.com</a><br>
+<strong>LayerSlider</strong> - <a href="http://codecanyon.net/item/layerslider-responsive-jquery-slider-plugin/922100" rel="external">http://codecanyon.net/item/layerslider-responsive-jquery-slider-plugin/922100</a>
+</p>
+<br>
+<h4>Used Fonts</h4>
+<p>
+<strong>Open Sans</strong> - <a href="http://www.google.com/fonts/specimen/Open+Sans" rel="external">www.google.com/fonts/specimen/Open+Sans</a><br>
+</p>
+<br>
+<h4>Included Icons</h4>
+<p>
+<strong>Font Awesome</strong> - <a href="http://fortawesome.github.com/Font-Awesome" rel="external">http://fortawesome.github.com/Font-Awesome</a><br>
+<strong>The Entypo Pictogram Suite</strong> - <a href="http://www.entypo.com" rel="external">http://www.entypo.com</a><br>
+</p> 
+<br>
+<h4>Used Photos in Demo</h4>
+<p>      
+<a href="http://photopin.com" rel="external">http://photopin.com</a><br>
+<a href="https://www.flickr.com" rel="external">https://www.flickr.com</a><br>
+<a href="http://picjumbo.com" rel="external">http://picjumbo.com</a><br>
+</p>
+Images are not included in the template.<br>
+<br>
+<p>
+Thank you for purchasing Deita template. In case of any questions related to this template, we will to get back to you as soon as we can. We do not provide any warranty, however we are always here to help.
+<br><br>
+Best regards
+<br>
+entiri s.r.o.
+</p> 
+
+<hr>
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+<h2><a name="changelog">Changelog</a></h2>
+<hr>
+<p>
+<strong>v1.0 - 01 May 2014</strong><br>
+- Initial Version
+</p>  
+
+<hr>
+<a href="#top"><div class="back-to-top t2"><span>Back to Top</span></div></a>
+  <h2 class="bottom-text">Thank You Very Much</h2>
+  <br><br>
+  <hr>
+  <div id="copyright">
+    &copy; 2014 <a href="http://www.entiri.com" rel="external" alt="entiri s.r.o.">entiri</a>
+  </div>
+  
+</div>
+
+</body>
+</html>
