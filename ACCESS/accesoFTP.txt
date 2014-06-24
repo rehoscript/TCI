@@ -1,0 +1,4 @@
+Usuario tci@teracom.mx
+Password: u8c50o9D
+URL: ftp.teracom.mx
+Directorio: /home/elisdesarr/domains/teracom.mx/public_html/tci/
