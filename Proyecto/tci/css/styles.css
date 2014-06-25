@@ -441,6 +441,7 @@ header{
   -moz-border-radius: 0px 0px 6px 6px; 
   -o-border-radius: 0px 0px 6px 6px; 
   border-radius: 0px 0px 6px 6px; 
+  border: outset;
 }      
         
 .social-panel .social-bg {
@@ -515,7 +516,7 @@ header{
   margin-top:-40px; 
   font-size:30px;
   color:#fff;
-  background:#333946;  
+  background:rgb(240,183,106);  
   text-align:center;
   -webkit-border-radius: 3px; 
      -moz-border-radius: 3px; 
@@ -529,7 +530,7 @@ header{
 }
 
 .service:hover i {
-  background:rgb(240,183,106);  
+  background:black;  
   -webkit-transform: scale(1.15);  /* Saf3.1+, Chrome */
      -moz-transform: scale(1.15);  /* FF3.5+ */
       -ms-transform: scale(1.15);  /* IE9 */
@@ -1980,7 +1981,7 @@ table a:hover{
 }
 
 .box-theme-color h5{
-  background: #353648;
+  background: rgb(240,183,106);
 }
 
 .box-white p, .box-gray p, .box-theme-color p{
