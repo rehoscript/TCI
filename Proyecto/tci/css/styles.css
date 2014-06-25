@@ -446,7 +446,7 @@ header{
 .social-panel .social-bg {
   display:block;
   overflow:hidden;
-  background:#e4545b;
+  background:rgb(240,183,106);
   -webkit-border-radius: 0px 0px 6px 0px; 
   -moz-border-radius: 0px 0px 6px 0px; 
   -o-border-radius: 0px 0px 6px 0px; 
@@ -1548,7 +1548,7 @@ zoom: 1;
 /* --------------------------------------------------------	*/
 
 .social i, .social-2 i, .social-3 i{
-  color:#ec888d;
+  color:black;
   font-size:22px;
   line-height:34px;
   width:38px;
