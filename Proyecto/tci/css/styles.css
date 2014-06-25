@@ -1626,7 +1626,7 @@ zoom: 1;
 
 .social-container .social-footer {
   text-align:center;
-  background:#e4545b;
+  background:rgb(240,183,106);
   height:75px;
   padding-top:20px;
   -webkit-border-radius: 5px 5px 0px 0px;
@@ -1636,7 +1636,7 @@ zoom: 1;
 }
 
 .social-container .social-footer i {
-  color:#ec888d;
+  color:black;
   font-size:22px;
   line-height:38px;
   width:38px;
