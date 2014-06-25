@@ -528,7 +528,7 @@ header{
 }
 
 .service:hover i {
-  background:#e4545b;  
+  background:rgb(240,183,106);  
   -webkit-transform: scale(1.15);  /* Saf3.1+, Chrome */
      -moz-transform: scale(1.15);  /* FF3.5+ */
       -ms-transform: scale(1.15);  /* IE9 */
