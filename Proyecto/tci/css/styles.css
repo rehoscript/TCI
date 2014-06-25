@@ -1671,7 +1671,7 @@ zoom: 1;
    
 .footer{
   overflow:hidden;
-  background:url(../img/bg-footer.jpg) top center;
+  /*background:url(../img/bg-footer.jpg) top center;*/
 }
 
 .panel-footer{
